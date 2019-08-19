@@ -1,0 +1,11 @@
+.logoWrapper{
+    position:absolute;
+    top:2rem;
+    left:2rem;
+    background-color: transparent;
+   
+}
+.logo{
+    height: 4rem;
+    background-color: transparent;
+}

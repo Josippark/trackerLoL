@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: .5rem;
+  box-sizing: border-box;
+  font-weight: 500;
+  line-height: 1.7;
+  font-family: 'Darker Grotesque', sans-serif;
+  color: rgb(228, 225, 225);
+  background-color: rgb(37, 37, 37);
+ 
+}
+.html{
+  font-size: 62.5%
+}

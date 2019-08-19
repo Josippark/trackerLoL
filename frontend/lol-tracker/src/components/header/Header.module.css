@@ -1,0 +1,79 @@
+.header{
+    position:relative;
+    padding: 0;
+    height: 95vh;
+    background-image: linear-gradient(to right, rgba(66, 134, 244, 0.70),rgba(55, 59, 68, 0.70)), url('../../images/header.jpg');
+    background-size:cover;
+    background-position: top;
+    clip-path: polygon(90% 0, 100% 17%, 100% 100%, 0 100%, 0 0);
+    min-width: 50%
+}
+
+.heading{
+    text-transform: uppercase;
+    background-color:transparent;
+
+}
+.headingWrapper{
+    position: absolute;
+    max-width:60%;
+    top:40%;
+    left:50%;
+    text-align: center;
+    
+    transform:translate(-50%,-50%);
+    background-color:transparent;
+    animation-name: fadeIn;
+    animation-duration:3s;
+    animation-timing-function: ease-out;
+    background-color: transparent;
+
+}
+
+.headingFirst{
+    padding-left:1rem;
+    display:block;  /* span element is inline so we need to specify display blocked */
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2.5rem;
+    background-color:transparent;
+    
+    
+}
+.headingSecond{
+    display:block;
+    font-size: 1.7rem;
+    font-weight: 300;
+   
+    background-color:transparent;
+
+ 
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@media(max-width:90rem){
+    .headingFirst{
+        padding:0;
+        font-size: 3rem;
+        letter-spacing: 0;
+    }
+    .headingSecond{
+        display:none;
+    }
+}
+
+@media(max-width:120rem){
+    .headingFirst{
+        padding-left:.5rem;
+        letter-spacing: .5rem;
+    }
+    
+}
