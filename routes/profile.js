@@ -28,7 +28,7 @@ router.get('/:server/:profile', async (req,res) =>{
         const data = await response.json();
 
 
-        if(data.status.status_code === 404){
+        if(data.status && data.status.status_code === 404){
             return res.status(404).json({
                 message:"Username not found"
             })
